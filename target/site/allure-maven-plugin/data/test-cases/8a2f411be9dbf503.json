@@ -1,0 +1,56 @@
+{
+  "uid" : "8a2f411be9dbf503",
+  "name" : "testLoginCourierWithWrongPassword",
+  "fullName" : "LoginCourierTest.testLoginCourierWithWrongPassword",
+  "historyId" : "37ed5176677b294d899276d41825ab95",
+  "time" : {
+    "start" : 1794203217579,
+    "stop" : 1794203219231,
+    "duration" : 1652
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginCourierWithWrongPassword"
+  }, {
+    "name" : "suite",
+    "value" : "LoginCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "Sir_Morkovkins"
+  }, {
+    "name" : "thread",
+    "value" : "29376@Sir_Morkovkins.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a2f411be9dbf503.json",
+  "parameterValues" : [ ]
+}

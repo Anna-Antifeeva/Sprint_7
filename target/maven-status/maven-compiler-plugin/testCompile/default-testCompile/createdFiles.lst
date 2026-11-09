@@ -1,0 +1,6 @@
+GetListOrderTest.class
+BaseCourierTest.class
+BaseAPITest.class
+CreateCourierTest.class
+CreateOrderParameterizedTest.class
+LoginCourierTest.class

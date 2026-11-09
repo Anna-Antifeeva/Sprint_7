@@ -1,0 +1,111 @@
+[ {
+  "uid" : "62cd04f3cff9249c",
+  "name" : "testCreateOrderWithDifferentColours[0]",
+  "time" : {
+    "start" : 1794203155961,
+    "stop" : 1794203156299,
+    "duration" : 338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a95305a15d545e4",
+  "name" : "testLoginCourierWithEmptyRequiredFields",
+  "time" : {
+    "start" : 1794203171303,
+    "stop" : 1794203217577,
+    "duration" : 46274
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3363174a044e35fd",
+  "name" : "testCreateOrderWithDifferentColours[1]",
+  "time" : {
+    "start" : 1794203156301,
+    "stop" : 1794203156611,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1ef8572ab70c40",
+  "name" : "testCreateCourierWithEmptyRequiredFields",
+  "time" : {
+    "start" : 1794203112182,
+    "stop" : 1794203113183,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b994c0e986e0261d",
+  "name" : "getListOrderTest",
+  "time" : {
+    "start" : 1794203157258,
+    "stop" : 1794203171303,
+    "duration" : 14045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41be0b6f30f15170",
+  "name" : "testLoginCourierSuccess",
+  "time" : {
+    "start" : 1794203219236,
+    "stop" : 1794203220571,
+    "duration" : 1335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "182760a58823c6e4",
+  "name" : "testCreateOrderWithDifferentColours[3]",
+  "time" : {
+    "start" : 1794203156949,
+    "stop" : 1794203157258,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4309274a4bac1a0f",
+  "name" : "testCreateCourierSuccess",
+  "time" : {
+    "start" : 1794203113190,
+    "stop" : 1794203155948,
+    "duration" : 42758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a2f411be9dbf503",
+  "name" : "testLoginCourierWithWrongPassword",
+  "time" : {
+    "start" : 1794203217579,
+    "stop" : 1794203219231,
+    "duration" : 1652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbe479022b4e3ac3",
+  "name" : "testCreateOrderWithDifferentColours[2]",
+  "time" : {
+    "start" : 1794203156611,
+    "stop" : 1794203156946,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57b485cec362ea11",
+  "name" : "testCreateCourierError",
+  "time" : {
+    "start" : 1794203107258,
+    "stop" : 1794203112130,
+    "duration" : 4872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,56 @@
+{
+  "uid" : "4309274a4bac1a0f",
+  "name" : "testCreateCourierSuccess",
+  "fullName" : "CreateCourierTest.testCreateCourierSuccess",
+  "historyId" : "df2f941f29d5e49382bcf15fb94e7404",
+  "time" : {
+    "start" : 1794203113190,
+    "stop" : 1794203155948,
+    "duration" : 42758
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateCourierSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "CreateCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "Sir_Morkovkins"
+  }, {
+    "name" : "thread",
+    "value" : "29376@Sir_Morkovkins.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4309274a4bac1a0f.json",
+  "parameterValues" : [ ]
+}
