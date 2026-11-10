@@ -1,6 +1,8 @@
 package order;
 
 import base.BaseAPITest;
+import io.qameta.allure.Description;
+import io.qameta.allure.junit4.DisplayName;
 import model.OrderModel;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,6 +14,7 @@ import java.util.List;
 
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static steps.OrderSteps.createOrder;
+import static org.apache.http.HttpStatus.*;
 
 @RunWith(Parameterized.class)
 public class CreateOrderParameterizedTest extends BaseAPITest {
@@ -33,13 +36,16 @@ public class CreateOrderParameterizedTest extends BaseAPITest {
     }
 
     @Test
+    @DisplayName("Create order with different colours")
+    @Description("The order is successfully created with different color variations")
+
     public void testCreateOrderWithDifferentColours() {
         OrderModel order = new OrderModel(colours);
 
         createOrder(order)
                 .then()
                 .log().all()
-                .statusCode(201)
+                .statusCode(SC_CREATED)
                 .body("track", notNullValue());
     }
 }

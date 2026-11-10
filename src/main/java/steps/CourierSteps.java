@@ -3,6 +3,7 @@ import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import io.restassured.http.ContentType;
 import model.CourierModel;
+import static org.apache.http.HttpStatus.*;
 
 import static data.APIData.*;
 import static io.restassured.RestAssured.given;
@@ -40,12 +41,12 @@ public class CourierSteps {
 
         Response response = loginCourier(courier);
 
-        if (response.statusCode() == 200) {
+        if (response.statusCode() == SC_OK) {
             int id = response.path("id");
             given()
                     .delete(COURIER_PATH + "/" + id)
                     .then()
-                    .statusCode(200);
+                    .statusCode(SC_OK);
         }
     }
 }

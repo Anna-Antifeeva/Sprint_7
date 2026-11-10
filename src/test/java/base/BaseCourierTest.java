@@ -7,6 +7,7 @@ import org.junit.Before;
 import static data.APIData.*;
 import static steps.CourierSteps.createCourier;
 import static steps.CourierSteps.deleteCourier;
+import static org.apache.http.HttpStatus.*;
 
 public class BaseCourierTest extends BaseAPITest {
 
@@ -16,7 +17,7 @@ public class BaseCourierTest extends BaseAPITest {
         CourierModel courier = new CourierModel(LOGIN, PASSWORD, FIRSTNAME);
         createCourier(courier)
                 .then()
-                .statusCode(201);
+                .statusCode(SC_CREATED);
 
     }
 

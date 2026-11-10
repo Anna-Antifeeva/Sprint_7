@@ -1,0 +1,123 @@
+{
+  "uid" : "3e127f16d22152c7",
+  "name" : "Create courier with empty required field password",
+  "fullName" : "courier.CreateCourierTest.testCreateCourierWithEmptyRequiredFieldPassword",
+  "historyId" : "5ceff118d14c780b8343754c55ffaf74",
+  "time" : {
+    "start" : 1794285657815,
+    "stop" : 1794285658470,
+    "duration" : 655
+  },
+  "description" : "If the password is not passed, error 400 is returned",
+  "descriptionHtml" : "<p>If the password is not passed, error 400 is returned</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "If the password is not passed, error 400 is returned",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание курьера",
+      "time" : {
+        "start" : 1794285657815,
+        "stop" : 1794285658125,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@718212ef"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление курьера",
+      "time" : {
+        "start" : 1794285658167,
+        "stop" : 1794285658470,
+        "duration" : 303
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизация курьера",
+        "time" : {
+          "start" : 1794285658167,
+          "stop" : 1794285658470,
+          "duration" : 303
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "courier",
+          "value" : "model.CourierModel@69abff1d"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@69abff1d"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "courier"
+  }, {
+    "name" : "testClass",
+    "value" : "courier.CreateCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateCourierWithEmptyRequiredFieldPassword"
+  }, {
+    "name" : "suite",
+    "value" : "courier.CreateCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "Sir_Morkovkins"
+  }, {
+    "name" : "thread",
+    "value" : "27296@Sir_Morkovkins.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e127f16d22152c7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+base\BaseCourierTest.class
+courier\CreateCourierTest.class
+order\GetListOrderTest.class
+base\BaseAPITest.class
+courier\LoginCourierTest.class
+order\CreateOrderParameterizedTest.class
