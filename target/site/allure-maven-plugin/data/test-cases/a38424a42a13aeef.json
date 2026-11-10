@@ -1,0 +1,141 @@
+{
+  "uid" : "a38424a42a13aeef",
+  "name" : "Login courier with empty required field login",
+  "fullName" : "courier.LoginCourierTest.testLoginCourierWithEmptyRequiredFieldLogin",
+  "historyId" : "88f248678041046e5faf0da2e80de3c8",
+  "time" : {
+    "start" : 1794285658474,
+    "stop" : 1794285659701,
+    "duration" : 1227
+  },
+  "description" : "If the login is not passed, error 400 is returned",
+  "descriptionHtml" : "<p>If the login is not passed, error 400 is returned</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "If the login is not passed, error 400 is returned",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание курьера",
+      "time" : {
+        "start" : 1794285658474,
+        "stop" : 1794285658773,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@9d818b5"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация курьера",
+      "time" : {
+        "start" : 1794285658773,
+        "stop" : 1794285659074,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@68a06914"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление курьера",
+      "time" : {
+        "start" : 1794285659082,
+        "stop" : 1794285659700,
+        "duration" : 618
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизация курьера",
+        "time" : {
+          "start" : 1794285659082,
+          "stop" : 1794285659394,
+          "duration" : 312
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "courier",
+          "value" : "model.CourierModel@642aa8ea"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@642aa8ea"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "courier"
+  }, {
+    "name" : "testClass",
+    "value" : "courier.LoginCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginCourierWithEmptyRequiredFieldLogin"
+  }, {
+    "name" : "suite",
+    "value" : "courier.LoginCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "Sir_Morkovkins"
+  }, {
+    "name" : "thread",
+    "value" : "27296@Sir_Morkovkins.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a38424a42a13aeef.json",
+  "parameterValues" : [ ]
+}

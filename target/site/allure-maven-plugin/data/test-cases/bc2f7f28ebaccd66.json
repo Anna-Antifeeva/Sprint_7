@@ -1,0 +1,141 @@
+{
+  "uid" : "bc2f7f28ebaccd66",
+  "name" : "Create courier error",
+  "fullName" : "courier.CreateCourierTest.testCreateCourierError",
+  "historyId" : "8f5c9d754a23bf9d99eb3c2e52c1a10e",
+  "time" : {
+    "start" : 1794285629868,
+    "stop" : 1794285656067,
+    "duration" : 26199
+  },
+  "description" : "Cannot create two couriers with the same login; error 409 is returned",
+  "descriptionHtml" : "<p>Cannot create two couriers with the same login; error 409 is returned</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Cannot create two couriers with the same login; error 409 is returned",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание курьера",
+      "time" : {
+        "start" : 1794285630944,
+        "stop" : 1794285640362,
+        "duration" : 9418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@2570b316"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Создание курьера",
+      "time" : {
+        "start" : 1794285640406,
+        "stop" : 1794285654756,
+        "duration" : 14350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@2570b316"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление курьера",
+      "time" : {
+        "start" : 1794285655413,
+        "stop" : 1794285656065,
+        "duration" : 652
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизация курьера",
+        "time" : {
+          "start" : 1794285655413,
+          "stop" : 1794285655723,
+          "duration" : 310
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "courier",
+          "value" : "model.CourierModel@4acae4c7"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "model.CourierModel@4acae4c7"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "courier"
+  }, {
+    "name" : "testClass",
+    "value" : "courier.CreateCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateCourierError"
+  }, {
+    "name" : "suite",
+    "value" : "courier.CreateCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "Sir_Morkovkins"
+  }, {
+    "name" : "thread",
+    "value" : "27296@Sir_Morkovkins.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc2f7f28ebaccd66.json",
+  "parameterValues" : [ ]
+}

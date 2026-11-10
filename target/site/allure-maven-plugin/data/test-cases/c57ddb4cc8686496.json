@@ -1,0 +1,87 @@
+{
+  "uid" : "c57ddb4cc8686496",
+  "name" : "Create order with different colours",
+  "fullName" : "order.CreateOrderParameterizedTest.testCreateOrderWithDifferentColours[3]",
+  "historyId" : "25f51faeb59ad433ac3b1b14823e7037",
+  "time" : {
+    "start" : 1794285719864,
+    "stop" : 1794285720170,
+    "duration" : 306
+  },
+  "description" : "The order is successfully created with different color variations",
+  "descriptionHtml" : "<p>The order is successfully created with different color variations</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "The order is successfully created with different color variations",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1794285719865,
+        "stop" : 1794285720161,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "model.OrderModel@75eed00f"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "order"
+  }, {
+    "name" : "testClass",
+    "value" : "order.CreateOrderParameterizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateOrderWithDifferentColours[3]"
+  }, {
+    "name" : "suite",
+    "value" : "order.CreateOrderParameterizedTest"
+  }, {
+    "name" : "host",
+    "value" : "Sir_Morkovkins"
+  }, {
+    "name" : "thread",
+    "value" : "27296@Sir_Morkovkins.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c57ddb4cc8686496.json",
+  "parameterValues" : [ ]
+}

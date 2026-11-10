@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: courier.LoginCourierTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.372 s <<< FAILURE! - in courier.LoginCourierTest
+testLoginCourierWithEmptyRequiredFieldPassword(courier.LoginCourierTest)  Time elapsed: 55.173 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <504>.
+
+	at courier.LoginCourierTest.testLoginCourierWithEmptyRequiredFieldPassword(LoginCourierTest.java:56)
+
